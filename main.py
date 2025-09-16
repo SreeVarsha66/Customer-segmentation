@@ -1,4 +1,3 @@
-# cluster.py - Optimized version for resume/portfolio
 # Customer Segmentation using K-Means
 
 import pandas as pd
@@ -91,4 +90,5 @@ def main():
     df.to_csv('Mall_Customers_segmented.csv', index=False)
 
 if __name__ == '__main__':
+
     main()
